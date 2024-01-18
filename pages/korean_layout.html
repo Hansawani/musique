@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Player </title>
+    <link rel="stylesheet" href="layout_idea.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <h2>
+            <center>Languages</center>
+        </h2>
+        <ul class="rounded-list">
+            <li onclick="openNewPage('layout_idea.html')">English</li>
+            <li onclick="openNewPage('hindi_layout.html')">Hindi</li>
+            <li onclick="openNewPage('french_layout.html')">French</li>
+            <li onclick="openNewPage('korean_layout.html')">Korean</li>
+        </ul>
+        <!-- Add more links as needed -->
+    </div>
+    <!-- Content -->
+    <div id="content">
+        <div class="box" onclick="openNewPage('korean1.html')">
+            <div class="name">Cheerup</div><img class="cover" src="/assets/cheerup.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('korean2.html')">
+            <div class="name">DNA</div><img class="cover" src="/assets/dna.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('korean3.html')">
+            <div class="name">Dope</div><img class="cover" src="/assets/dope.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('korean4.html')">
+            <div class="name">Dynamite</div><img class="cover" src="/assets/dynamite.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('korean5.html')">
+            <div class="name">Kill This Love</div><img class="cover" src="/assets/killthislove.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('korean6.html')">
+            <div class="name">Life Goes On</div><img class="cover" src="/assets/lifegoeson.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('korean7.html')">
+            <div class="name">Lovesick Girls</div><img class="cover" src="/assets/lovesickgirls.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('korean8.html')">
+            <div class="name">Whistle</div><img class="cover" src="/assets/whistle.jpeg">
+        </div>
+        <div class="box" onclick="openNewPage('korean9.html')">
+            <div class="name">YES or YES</div><img class="cover" src="/assets/yesoryes.jpg">
+        </div>
+    </div>
+
+    <script>
+        function openNewPage(page) {
+            window.open(page, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
